@@ -2,7 +2,7 @@ Names: Allie, Mary, Daniel, Jordan, Teresa
 
 Cooperation Plan
 
-•	What are the key strengths of each person on the team?
+• What are the key strengths of each person on the team?
     - Allie- HTML. leading
     - Mary- CSS, spelling
     - Daniel- JavaScript. Logical flow, visual layout
@@ -10,7 +10,7 @@ Cooperation Plan
     - Teresa- CSS, spelling, teamwork
     
     
-•	How can you best utilize these strengths in the execution of your project?
+• How can you best utilize these strengths in the execution of your project?
     - Allie- HTML
     - Mary- CSS master
     - Daniel- general design in JavaScript
@@ -18,7 +18,7 @@ Cooperation Plan
     - Teresa- tester
     
     
-•	In which professional competencies do you each want to develop greater strength?
+• In which professional competencies do you each want to develop greater strength?
     - Allie- more experience with CSS (takes less time to complete), more comfortable with problem solving, and JavaScrip
     - Mary- problem solving and JavaScript
     - Daniel- teamwork, collaborating with other people
@@ -26,7 +26,7 @@ Cooperation Plan
     - Teresa- learn more JavaScript 
 
 
-•	Knowing that every person in your team needs to understand all aspects of the project, how do you plan to approach the day-to-day work?
+• Knowing that every person in your team needs to understand all aspects of the project, how do you plan to approach the day-to-day work?
     - Check in in the morning, at lunch and before 6pm.
     - Use Git Projects to set up day to day task
     - Split up work as evenly as possible
@@ -34,107 +34,111 @@ Cooperation Plan
     
     
 Conflict Plan
-•	What will be your group’s process to resolve conflict, when it arises?
+
+• What will be your group’s process to resolve conflict, when it arises?
     - Flip on coin on minor issues
     - On bigger issues we can vote 
     
     
-•	What will your team do if one person is taking over the project and not letting the other members contribute?
+• What will your team do if one person is taking over the project and not letting the other members contribute?
     - Try to plan ahead so that doesn’t happen
     - Talk to TA or instructor for advice on how to handle it
     
     
-•	How will you approach each other and the challenges of the project knowing that it is impossible for all members to be at the exact same place in understanding and skill level?
+• How will you approach each other and the challenges of the project knowing that it is impossible for all members to be at the exact same place in understanding and skill level?
     - Stay open and communicative about others skill levels
     - Make sure to check in
     - We all know each other’s strengths and weaknesses so we can work on them
     
     
-•	How will you raise concerns to members who are not adequately contributing?
+• How will you raise concerns to members who are not adequately contributing?
     - We will try to prevent that by having assigned roles
     - CHECK IN!!! And ask questions if you need help
 
 
-•	How and when will you escalate the conflict if your resolution attempts are unsuccessful?
+• How and when will you escalate the conflict if your resolution attempts are unsuccessful?
     - Vote if we haven’t yet
     - Contact TA or instructor for further help
     
     
 Communication Plan
-•	What hours will you be available to communicate?
+
+• What hours will you be available to communicate?
     - Not to expect responses past: 10pm
     - Start time: 9am
     - Let teammates know of limited availability if needed
     
     
-•	What platforms will you use to communicate (i.e. Slack, phone …)?
+• What platforms will you use to communicate (i.e. Slack, phone …)?
     - Slack
     
     
-•	How often will you take breaks?
+• How often will you take breaks?
     - Every hour
 
 
-•	What is your plan if you start to fall behind?
+• What is your plan if you start to fall behind?
     - Communicate that with your team
     - Make a plan on how to fix it
     - Ask questions (15-minute rule)
     
     
-•	How will you communicate after hours and on the weekend?
+• How will you communicate after hours and on the weekend?
     - We should be mostly done and if you need something Slack the group and expect responses on Sunday after 1pm
     
     
-•	What is your strategy for ensuring everyone’s voice is heard?
+• What is your strategy for ensuring everyone’s voice is heard?
     - Daily meetings and make sure everyone contribute 
 
 
-•	How will you ensure that you are creating a safe environment where everyone feels comfortable speaking up?
+• How will you ensure that you are creating a safe environment where everyone feels comfortable speaking up?
     - Make it a judgement free zone
     - Communicate 
     - Acknowledge that everyone has different skill sets
 
 
 Work Plan
-•	How you will identify tasks, assign tasks, know when they are complete, and manage work in general?
+
+• How you will identify tasks, assign tasks, know when they are complete, and manage work in general?
     - Keep up and check with Git Projects regularly
     - Must be reviewed to be considered “complete”
     - Make sure the work matched the documentation (the reviewer should double check)
     
     
-•	What project management tool will be used?
+• What project management tool will be used?
     - Git Projects
 
 Git Process
-•	What components of your project will live on GitHub?
+
+• What components of your project will live on GitHub?
     - All completed components 
     - DON’T CREATE A PULL REQUEST UNTIL YOU ARE DONE
     
     
-•	How will you share the repository with your teammates?
+• How will you share the repository with your teammates?
     - Make everyone a collaborator (already done) 
 
 
-•	What is your Git flow?
+• What is your Git flow?
     - Check regularly that you are on your own branch
     - “Git pull origin main” (every time you merge a pull request- let the group know and make sure they heard)
     - A-C-P (making frequent commits and not one big one- good stopping point)
     - Let someone know when your code is ready to be reviewed
 
 
-•	Will you be using a PR review workflow? If so, consider:
-•	How many people must review a PR?
+• Will you be using a PR review workflow? If so, consider:
+• How many people must review a PR?
     - One person
 
 
-•	Who merges PRs?
+• Who merges PRs?
     - Reviewer 
 
 
-•	How often will you merge?
+• How often will you merge?
     - After it has been reviewed and tested and it is completed 
 
 
-•	How will you communicate that it’s time to merge?
+• How will you communicate that it’s time to merge?
     - Slack it or tell it to everyone in person (if in the class room)
 
