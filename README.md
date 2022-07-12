@@ -1,4 +1,4 @@
-Link to project management board: 
+Link to project management board: https://github.com/AllieDunkel/book-exchange/projects/1 
 
 Authors: 
 
