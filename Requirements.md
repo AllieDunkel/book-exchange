@@ -8,9 +8,11 @@ in:
     - The user has to share one book in order to get a book
     - Search bar by title or author
     - Pages:
+        - home
         - About us
         - Broswer library
         - Share a Book
+        - checkout 
     - Add an animation 
     
 Out:
@@ -20,11 +22,12 @@ Out:
 MVP
 - The user needs to be able to search a book by title or author
 - The user needs to be able to add the book into their shelf
-- The user needs to be able to add a book to our library
+- The user needs to be able to add a book to our library with title and author
 - The user needs to be able to access the "about me" page
 - The user needs to be able to view the volunteer hours
 - The user has to share one book in order to get a book
 - Our page needs to have an animation 
+- The user needs to be able to access the checkout page with the bookshelf
 
 Stretch goals
 - Have a chart display the trading data
