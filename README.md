@@ -24,16 +24,51 @@ Domain Modeling:
 Wireframes
 
 
+
+
+
+
 Home page:
+
+![Index](https://user-images.githubusercontent.com/107425020/178613254-001c9d2e-374f-4721-b343-d3d84b7d543a.png)
+
+
+
 
 Browse library:
 
+
+![Browse](https://user-images.githubusercontent.com/107425020/178613107-35b163af-20c5-42fb-b11a-aaea0f149d26.png)
+
+
+
+
+
 Share a Book:
+
+
+![Share](https://user-images.githubusercontent.com/107425020/178613342-6f60f105-905b-4ab9-983c-2697699b4b21.png)
+
+
+
+
 
 About us:
 
+
+
+
+
 Checkout: 
 
+
+
+
+
+Sign in page: 
+
+
+![Log In](https://user-images.githubusercontent.com/107425020/178613310-2ea2050f-7341-48b7-881f-911aa55a3887.png)
 
 
 
