@@ -1,6 +1,12 @@
 Link to project management board: https://github.com/AllieDunkel/book-exchange/projects/1 
 
+<<<<<<< HEAD
 Semantic version: 1.0.15 
+=======
+
+Semantic version: 1.0.19
+
+>>>>>>> d2dcf0b166122d6519c50dcffb4522c04cee7c5c
 
 Authors: 
 
