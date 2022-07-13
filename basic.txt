@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
     <script src="js/app.js"></script>
-    <script src ="js/user.js> </script>
+    <script src ="js/user.js"> </script>
   </head>
   <body>
     <header>
