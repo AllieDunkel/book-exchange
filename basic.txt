@@ -21,6 +21,7 @@
         <li><a href="share-book.html">Share a Book</a></li>
         <li><a href="about-us.html">About</a></li>
        </ul> 
+     </header>
     <main>
       <p>Text goes here</p>
         </main>    
