@@ -30,7 +30,8 @@ Wireframes
 
 Home page:
 
-![Index](https://user-images.githubusercontent.com/107425020/178613254-001c9d2e-374f-4721-b343-d3d84b7d543a.png)
+
+![Index (1)](https://user-images.githubusercontent.com/107425020/178774033-57e763e0-ac5e-4777-bddd-15610d93f564.png)
 
 
 
@@ -47,20 +48,22 @@ Browse library:
 Share a Book:
 
 
-![Share](https://user-images.githubusercontent.com/107425020/178613342-6f60f105-905b-4ab9-983c-2697699b4b21.png)
 
+![Share (1)](https://user-images.githubusercontent.com/107425020/178773804-e96b3f2e-56e1-4515-9a7b-db0c31e7e0f2.png)
 
 
 
 
 About us:
 
+![About Us](https://user-images.githubusercontent.com/107425020/178773967-0392e491-9d04-455c-9ac8-f1a5cce0e3d7.png)
 
 
 
 
 Checkout: 
 
+ ![Checkout](https://user-images.githubusercontent.com/107425020/178773703-10669534-e7b7-4e61-9904-43a20f7a6da8.png)
 
 
 
