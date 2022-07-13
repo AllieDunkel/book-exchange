@@ -5,6 +5,10 @@
 * @description Constructor function for user objects
 */
 'use strict';
+
+const userKey="userKey";
+
+
 function User(userName,email) {
   this.Name = userName;
   this.email = email;
