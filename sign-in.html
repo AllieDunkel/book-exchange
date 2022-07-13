@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <title>Second Chance Books</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="js/user.js"></script>
+    <script src="js/sign-in.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Second Hand Books</h1>
+       <img src="logo.png" alt="site logo" />
+       <img src="bookshelf-icon.jpg" alt="bookshelf icon" />
+       <img src="book-icon.png" alt="book icon" />
+       <a href="sign-in.html">
+      <button>Sign In</button>
+       </a>
+       <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="browselibrary.html">Browse Library</a></li>
+        <li><a href="sharebook.html">Share a Book</a></li>
+        <li><a href="aboutus.html">About</a></li>
+       </ul>
+    </header>
+    <main>
+
+        <div>
+          <label for="name"><b>Name</b></label>
+          <input id="name" type="text" placeholder="Name" name="name" required>
+          
+          <label for="email"><b>Email</b></label>
+          <input id="email" type="text" placeholder="email@place.com" name="email" required>
+
+          <button id="SignInButton" onclick="handleButton()" >Login</button>
+        </div>
+  <span id="greeting"></span>
+    </main>
+<footer>
+  &copy; Copyright
+  <p>Phone Number: 319-945-1628</p>
+  <p>Email: secondhand@books.com</p>
+  <p> Address: 124 Book rd Cedar Rapids, IA, 52402
+    <ul>
+    <li><a href="index.html">Volunteer</a></li>
+    </ul>
+ </footer>
