@@ -127,6 +127,7 @@ Git Process
 
 
 • Will you be using a PR review workflow? If so, consider:
+Require reviewer to put html and css in a validator before merging into branch.
 • How many people must review a PR?
     - One person
 
