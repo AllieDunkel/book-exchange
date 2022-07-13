@@ -7,9 +7,9 @@
 'use strict';
 
 /**
- * @param {string} address
- * @param {string} city
- * @param {string} state
+ * @param {string} address - Street Address
+ * @param {string} city - City name
+ * @param {string} state - 2 letter state code
  * @param {number} zip - ZIP code
  */
 function ExchangeLocation (address,city,state,zip) {
