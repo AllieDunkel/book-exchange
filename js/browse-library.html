@@ -7,9 +7,10 @@
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
     <script src="js/app.js"></script>
-    <script src ="js/user.js"> </script>
+    <script src="js/book.js"></script>
+    <script src="js/browse.js"></script>
   </head>
-  <body>
+  <body onload="initializeBrowse()">
     <header>
         <h1>Second Chance Books</h1>
        <img src="img/logo.png" alt="site logo" />
@@ -20,19 +21,27 @@
         <li><a href="browse-library.html">Browse Library</a></li>
         <li><a href="share-book.html">Share a Book</a></li>
         <li><a href="about-us.html">About</a></li>
-       </ul> 
-     </header>
+       </ul>
+    </header>
     <main>
-      <p>Text goes here</p>
-        </main>    
+      <section id="searchBarSection">
+        <h2>Browse the Library</h2>
+        <p>
+          Explore our library or use the search bar to find a book.<br>
+          Add a book to your bookshelf by clicking Add to Shelf
+        </p>
+        <input type="text" id="searchBar" placeholder="Search by title, author, attributes">
+      </section>
+      <div id="libraryCards"></div>
+    </main>
 <footer>
   &copy; Copyright
   <p>Phone Number: 319-945-1628</p>
   <p>Email: secondchance@books.com</p>
-  <p> Address: 124 Book Rd Cedar Rapids, IA, 52402 </p>
+  <p> Address: 124 Book Rd Cedar Rapids, IA, 52402</p>
     <ul>
-    <li><a href="index.html#volunteer">Volunteer</a></li>
+    <li><a href="/index.html#volunteer">Volunteer</a></li>
     </ul>
  </footer>
 </body>
-</html>
+  
