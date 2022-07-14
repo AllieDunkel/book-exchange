@@ -21,6 +21,9 @@ function handleButton() {
 function logIn(userName,email) {
   let userLogIn;
   let isNewUser = true;
+  if (userDataObject.currentUser !== null) {
+    logOut();
+  }
   for (let i = 0; i < userDataObject.allUsers.length; i++) {
     if (userDataObject.allUsers[i].email === email) {
       isNewUser = false;

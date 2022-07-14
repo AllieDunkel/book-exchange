@@ -23,12 +23,30 @@ function UserData() {
   }
 }
 
+function checkLoggedIn () {
+  if (userDataObject.currentUser !== null) {
+    let logInArea = document.getElementById('logInArea');
+    logInArea.innerHTML = '';
+    let greeting = document.createElement('a');
+    greeting.innerText = `Welcome ${userDataObject.currentUser.name}`;
+    let button = document.createElement('button');
+    button.innerText = 'Log Out';
+    button.setAttribute('onclick','logOut()');
+    logInArea.appendChild(greeting);
+    logInArea.appendChild(button);
+  }
+}
+
 /**
  * Removes the value from current user
  */
 function logOut() {
+  console.log('in logout');
+  userDataObject.allUsers[userDataObject.currentUser.index] = userDataObject.currentUser;
   userDataObject.currentUser = null;
   localStorage.setItem(userKey, JSON.stringify(userDataObject));
+  let logInArea = document.getElementById('logInArea');
+  logInArea.innerHTML = '<a href="sign-in.html"> Sign in </a>';
 }
 
 /**
@@ -37,8 +55,9 @@ function logOut() {
  * @param {string} email - Unique email associated with this account
  */
 function User(userName,email) {
-  this.Name = userName;
+  this.name = userName;
   this.email = email;
   this.tokens = 0;
   this.bookshelf = [];
+  this.index = userDataObject.allUsers.length;
 }

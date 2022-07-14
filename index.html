@@ -7,15 +7,16 @@
   <link rel="stylesheet" href="css/reset.css" />
   <link rel="stylesheet" href="css/style.css" />
   <script src="js/app.js"></script>
+  <script src="js/user.js"></script>
 </head>
 
-<body>
+<body onload="checkLoggedIn()">
   <header>
     <h1>Second Chance Books</h1>
     <img src="img/logo.png" alt="site logo" />
     <img src="img/bookshelf-icon.jpg" alt="bookshelf icon" />
     <img src="img/book-icon.png" alt="book icon" />
-    <a href="sign-in.html"> Sign in </a>
+    <span id="logInArea"><a href="sign-in.html"> Sign in </a></span>
     <ul>
       <li><a href="index.html">Home</a></li>
       <li><a href="browse-library.html">Browse Library</a></li>
