@@ -11,7 +11,7 @@
 **********************************************************************************/
 
 var library;
-const key = "our-library";
+const libraryKey = "our-library";
 let currentUser;
 
 /**
@@ -20,7 +20,7 @@ let currentUser;
 function initializeBrowse(){
     library = getLibrary();
     renderLibrary(library);
-    currentUser = UserDataObject.currentUser;
+    currentUser = new UserData().currentUser;
 }
 
 
@@ -31,7 +31,7 @@ function initializeBrowse(){
  * @returns {array} current library or an empty array.
  */
 function getLibrary(){
-    let aLibrary =  localStorage.getItem(key);
+    let aLibrary =  localStorage.getItem(libraryKey);
     let result = JSON.parse(aLibrary);
     if(aLibrary == null){
         result = [];
@@ -109,7 +109,7 @@ function addToShelf(event){
         const element = library[i];
         if(element.title === text){
             //ADD BOOK TO CART
-            currentUser.shelf.add(new Book(element.title,element.author,element.isbn,element.attributes,element.quantity))
+            currentUser.bookshelf.push(new Book(element.title,element.author,element.isbn,element.attributes,element.quantity));
             library.splice(i,1);
             break;
         }
@@ -141,7 +141,7 @@ function fillStockForTesting(){
         new Book('The Man in the High Castle','Philip K. Dick', NaN, ["Fiction"])
     ]
 
-    localStorage.setItem(key, JSON.stringify(set));
+    localStorage.setItem(libraryKey, JSON.stringify(set));
   }
 }
 
