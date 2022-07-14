@@ -1,28 +1,137 @@
 * {
   box-sizing: border-box;
 }
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #E9DCC9;
+  color: rgba(144, 111, 83, 0.515);
+}
+
+header {
+  display: grid;
+  grid-template-columns: repeat(8, auto);
+  grid-template-rows: repeat(3, auto);
+  width: auto;
+  /* height: auto; */
+  padding: 10px;
+  border: solid 10px rgba(86, 77, 70, 0.708);
+  background-color: rgba(178, 138, 103, 0.515);
+  /*width: calc(50% - 80px);*/
+  animation-name: header-border;
+  animation-duration: 8s;
+}
+
+@keyframes header-border {
+  0% {
+    border-color: navy;
+  }
+
+  25% {
+    border-color: maroon;
+  }
+
+  50% {
+    border-color: rgba(63, 31, 13, 0.742);
+  }
+
+  100% {
+    border-color: darkgreen;
+  }
+}
+
+h1 {
+  line-height: .8;
+  margin: auto 0;
+  text-align: left;
+  color: rgb(34, 13, 5);
+  font-size: 35px;
+  font-size: 4rem;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 7;
+}
+
+#siteLogo {
+  width: 128px;
+  height: 128px;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+#logInArea {
+  display: inline-block;
+  width: 72px;
+  height: 72px;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 8;
+  grid-column-end: 9;
+}
+
+#bookshelf {
+  display: block;
+  padding: 8px;
+  width: 72px;
+  height: 72px;
+  margin: auto;
+  grid-row-start: 2;
+  grid-column-start: 7;
+}
+
+#book-icon {
+  display: inline-block;
+  padding: 8px;
+  width: 72px;
+  height: 72px;
+  margin: auto;
+  grid-row-start: 2;
+  grid-column-start: 8;
+}
+
+header ul {
+  grid-row-start: 3;
+  grid-column-start: 1;
+  grid-column-end: 9;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  text-align: center;
+}
+
+header li {
+  font-size: 25px;
+}
+
 main {
   max-width: 960px;
-  margin:auto;
+  margin: auto;
   background-color: hotpink;
 }
+
 h2 {
   text-align: center;
   font-size: 3.5rem;
   padding: 2rem;
 }
+
 #hero {
   width: 100%;
 }
+
 p {
   padding: 2rem;
   font-size: 1.5rem;
   line-height: 2rem;
 }
+
 #mainLinks {
   display: flex;
   justify-content: space-evenly;
 }
+
 #mainLinks a {
   display: block;
   width: 20rem;
@@ -34,6 +143,7 @@ p {
   text-align: center;
   padding-top: 3.5rem;
 }
+
 #storeInfo {
   padding: 2rem;
   display: grid;
@@ -41,17 +151,21 @@ p {
   font-size: 1.4rem;
   line-height: 2rem;
 }
+
 #storeInfo section {
   margin: 0 auto;
 }
+
 h3 {
   font-size: 2rem;
   text-align: center;
   padding: 1rem;
 }
+
 td {
   padding: .1rem .6rem;
 }
+
 footer {
   max-width: 960px;
   margin: auto;
