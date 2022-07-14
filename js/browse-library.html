@@ -6,16 +6,17 @@
     <title>Second Chance Books</title>
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <script src="js/app.js"></script>
-    <script src="js/book.js"></script>
-    <script src="js/browse.js"></script>
+    <script src="app.js"></script>
+    <script src="book.js"></script>
+    <script src="browse.js"></script>
   </head>
   <body onload="initializeBrowse()">
     <header>
         <h1>Second Chance Books</h1>
-       <img src="img/logo.png" alt="site logo" />
-       <img src="img/bookshelf-icon.jpg" alt="bookshelf icon" />
-       <img src="img/book-icon.png" alt="book icon" />
+        <img src="img/logo.png" alt="site logo" />
+        <img src="img/bookshelf-icon.jpg" alt="bookshelf icon" />
+        <img src="img/book-icon.png" alt="book icon" />
+        <a href="sign-in.html"> Sign in </a>
        <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="browse-library.html">Browse Library</a></li>
@@ -31,6 +32,7 @@
           Add a book to your bookshelf by clicking Add to Shelf
         </p>
         <input type="text" id="searchBar" placeholder="Search by title, author, attributes">
+        <button id="searchButton" onclick="searchBooks()">Search</button>
       </section>
       <div id="libraryCards"></div>
     </main>
