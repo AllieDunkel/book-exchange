@@ -1,1 +1,64 @@
-
+* {
+  box-sizing: border-box;
+}
+main {
+  max-width: 960px;
+  margin:auto;
+  background-color: hotpink;
+}
+h2 {
+  text-align: center;
+  font-size: 3.5rem;
+  padding: 2rem;
+}
+#hero {
+  width: 100%;
+}
+p {
+  padding: 2rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+#mainLinks {
+  display: flex;
+  justify-content: space-evenly;
+}
+#mainLinks a {
+  display: block;
+  width: 20rem;
+  height: 10rem;
+  background-color: yellow;
+  border: 5px solid purple;
+  border-radius: 20px;
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 3.5rem;
+}
+#storeInfo {
+  padding: 2rem;
+  display: grid;
+  grid-template: auto auto/1fr 1fr;
+  font-size: 1.4rem;
+  line-height: 2rem;
+}
+#storeInfo section {
+  margin: 0 auto;
+}
+h3 {
+  font-size: 2rem;
+  text-align: center;
+  padding: 1rem;
+}
+td {
+  padding: .1rem .6rem;
+}
+footer {
+  max-width: 960px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  line-height: 1.5rem;
+  font-size: 1.2rem;
+  padding: 1rem;
+  background-color: lime;
+}
