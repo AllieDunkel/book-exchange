@@ -38,10 +38,14 @@ function getLibrary(){
 }
 
 
+/**
+ *  Display the library
+ */
 function renderLibrary(){
     let div = document.getElementById('libraryCards');
     library.forEach(element => {
         let innerDiv = document.createElement('div');
+        innerDiv.classList.add('card');
         let title = document.createElement('h3');
         title.innerText = element.title;
         innerDiv.appendChild(title);
@@ -60,7 +64,9 @@ function renderLibrary(){
         }
         let button = document.createElement("button");
         button.innerText = "Add to Shelf";
+        innerDiv.appendChild(button);
 
+        div.appendChild(innerDiv);
     });
 }
 
