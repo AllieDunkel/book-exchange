@@ -5,53 +5,50 @@
 * @description adding added book to browse books
 */
 'use strict';
-addBooksStorage();
+
+//const libraryKey = 'our-library';
+//fillStockForTesting();
+
 // storing books to local storage
 
 /**
  * get array of books from local storage, add new book to array, store array back to local storage
- * 
+ *
  * @param {Book} book -  book to add
  */
 function addBooksStorage(book) {
-    let books = getBooksStorage();
-    console.log ('addBooksStorage',books);
-    books.push(book);
-    localStorage.setItem(libraryKey,books);
+  let books = getBooksStorage();
+
+  console.log ('addBooksStorage',books);
+
+  books.push(book);
+  localStorage.setItem('our-library',JSON.stringify(books));
 }
- 
- // getting books from storage
 
-
- /** 
+// getting books from storage
+/**
   * returns books from array
-  * 
+  *
   * @returns {array} - the array of books from local storage
   */
- function getBooksStorage(){
-    let result = localStorage.getItem(libraryKey)
-    console.log('getBooksStorage', result);
-    if (result === null){
-        return[];
-      } else{
-        let arrayString = JSON.parse(result);
-        //structure
-        return result;
-      }
-    };
-  //add new book to existing array.
-  addBook = function(book ,author){
-    console.log('adding book')
-
+function getBooksStorage(){
+  let result = localStorage.getItem('our-library');
+  console.log('getBooksStorage', result);
+  if (result === null){
+    return[];
+  } else{
+    let bookArray = JSON.parse(result);
+    //structure
+    return bookArray;
   }
-
-handleSubmit(){
- let titleValue = document.getElementbyId("title").value;
- let authorValue = document.getElementById("author").value;
- submit(titleValue,authorValue);
 }
-// give user a token for traded in book
-function updateTokens (){
-    let tokenCount = document.getElementsById("tokenCount");
-    tokenCount.textContent = fillStockForTesting.set.length;
-  }
+
+/**
+ * submit button that prompts adding a book
+ */
+function handleSubmit(){
+  let titleValue = document.getElementById('booktitle').value;
+  let authorValue = document.getElementById('author').value;
+  addBooksStorage(new Book(titleValue,authorValue));
+}
+

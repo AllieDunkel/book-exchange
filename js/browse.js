@@ -19,16 +19,10 @@ userDataObject;
  * The start point for this js file
  */
 function initializeBrowse(){
-<<<<<<< HEAD
-  library = getLibrary();
-  renderLibrary(library);
-  currentUser = new UserData().currentUser;
-=======
     library = getLibrary();
     renderLibrary(library);
     userDataObject = new UserData();
     currentUser = userDataObject.currentUser;
->>>>>>> 37648c63301a6da716d16c4d18fd267922509c7f
 }
 
 
