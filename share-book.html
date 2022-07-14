@@ -2,12 +2,16 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <title>Second Chance Books</title>
-  <link rel="stylesheet" href="css/reset.css" />
-  <link rel="stylesheet" href="css/style.css" />
-  <script src="js/app.js"></script>
-  <script src="js/user.js"> </script>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Second Chance Books</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src ="js/user.js"> </script>
+    <script src = "js/book.js"></script>
+    <script src ="js/browse.js"></script>
+    <script src = "js/share-book.js"></script>
+   
 </head>
 
 <body>
@@ -28,17 +32,19 @@
     <p> Add a book down below and receive a token. You can then exchange a token for a book in checkout</p>
     <img src="img/book-icon.png" alt=" book token" />
     <!--enlarged book token image tha will be to the left of icon-->
-    <form>
-      <label for="title"> Title</label> <br>
+    <fieldset>
+      <legend>Add a Book</legend>
+      <label for = "booktitle"> Title</label> <br>
 
-      <input type="text" id="title" placeholder="title" required>
+      <input type = "text" id="booktitle" placeholder="booktitle" required ><br>
 
-      <label for="author"> Author</label> <br>
+      <label for = "author"> Author</label> <br>
 
-      <input type="text" id="author" placeholder="name" required>
-
-      <button type="button">Submit</button>
-    </form>
+      <input type = "text" id="author" placeholder = "name" required><br>
+      
+      <button type="button" onclick="handleSubmit()"> Submit </button>
+    
+      </fieldset>
 
   </main>
 
