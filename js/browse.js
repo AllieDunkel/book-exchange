@@ -13,14 +13,22 @@
 let library;
 const libraryKey = 'our-library';
 let currentUser;
+userDataObject;
 
 /**
  * The start point for this js file
  */
 function initializeBrowse(){
+<<<<<<< HEAD
   library = getLibrary();
   renderLibrary(library);
   currentUser = new UserData().currentUser;
+=======
+    library = getLibrary();
+    renderLibrary(library);
+    userDataObject = new UserData();
+    currentUser = userDataObject.currentUser;
+>>>>>>> 37648c63301a6da716d16c4d18fd267922509c7f
 }
 
 
@@ -103,7 +111,18 @@ function renderLibrary(set){
 }
 
 function addToShelf(event){
-  let text = event.path[1].childNodes[0].innerText;
+    let text = event.path[1].childNodes[0].innerText;
+    
+    for (let i = 0; i < library.length; i++) {
+        const element = library[i];
+        if(element.title === text){
+            //ADD BOOK TO CART
+            currentUser.bookshelf.push(new Book(element.title,element.author,element.isbn,element.attributes,element.quantity));
+            updateUserShelf();
+            library.splice(i,1);
+            break;
+        }
+    }
 
   for (let i = 0; i < library.length; i++) {
     const element = library[i];
@@ -116,6 +135,11 @@ function addToShelf(event){
   }
 
   renderLibrary(library);
+}
+
+function updateUserShelf(){
+    userDataObject.allUsers[userDataObject.currentUser.index] = userDataObject.currentUser;
+    localStorage.setItem(userKey, JSON.stringify(userDataObject));
 }
 
 /**
