@@ -1,1 +1,176 @@
+* {}
 
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color:  #E9DCC9;
+  color: rgba(144, 111, 83, 0.515);
+ );
+}
+main {
+  width: 1024px;
+  margin: 3rem auto;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  width: auto; 
+  height: auto;
+  padding: 10px;
+  border: solid 10px rgba(178, 138, 103, 0.515);
+  background-color: rgba(189, 182, 169, 0.804);
+  /*width: calc(50% - 80px);*/
+  box-sizing: border-box;
+  animation-name: header-border;
+  animation-duration: 8s;
+}
+@keyframes header-border {
+  0%{border-color: navy;}
+  25% {border-color: maroon;}
+  50% {border-color: rgba(63, 31, 13, 0.742);}
+  100% {border-color: darkgreen;}
+}
+
+  h1 {
+    line-height: .8;
+    margin: 3rem 0 1rem;
+    grid-row-start: 1;
+    grid-row-end: 8;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: center;
+    color: rgb(34, 13, 5);
+    font-size: 25px;
+    font-size: 4rem;
+    background-color: rgba(178, 138, 103, 0.515);
+    animation-name: border;
+    animation-duration: 4s;
+  }
+#siteLogo {
+  width: 200px;
+  z-index: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+header>image
+
+
+h2 {
+  text-align: center;
+  font-size: 50px;
+}
+
+a {
+  padding: 12px;
+  background-color: #222;
+  color: #eee;
+  margin: 0 auto;
+}
+
+nav {
+  background-color: navy;
+  padding: 30px;
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  clear: both;
+  overflow: hidden;
+}
+
+li {
+  display: inline-block;
+  margin: auto;
+}
+
+li:first-child {
+  float: left;
+}
+
+li:last-child {
+  float: right;
+}
+.sign-in {float: top-right
+}
+
+
+nav a {
+  display: inline-block;
+  padding: 15px;
+  background: #ccc;
+  color: #333;
+}
+
+.float-me li {
+  float: left;
+  width: 33%;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.float-me li:last-child {
+  text-align: right;
+}
+
+.float-me li:nth-child(2) {
+  text-align: center;
+}
+
+
+.left {
+  position: absolute;
+  left: 40px;
+}
+
+.middle {
+  position: absolute;
+  left: 48%;
+}
+
+.right {
+  position: absolute;
+  right: 40px;
+}
+
+div {
+  margin: 0 auto;
+  height: 42px;
+}
+
+main {
+  margin: 20px;
+  background-color: rgb(19, 162, 228);
+  display: inline-block;
+  padding-bottom: 50px;
+  padding: 25px;
+  font-size: 24px;
+  line-height: 1.3em;
+}
+
+p {
+  /* change to show paragraph extend */
+  max-width: 75%;
+  display: inline-block;
+}
+
+img {
+  float: right;
+  margin-right: 20px;
+}
+
+footer {
+
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background-color: lightblue;
+  opacity: 0.5;
+  height: 150px;
+
+}
