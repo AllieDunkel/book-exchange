@@ -3,23 +3,73 @@ h2 {
 }
 
 #allie {
-  float: right;
+  
+  display: block;
+  align-items: center;
+  justify-content: center;
+  display:inline-block;float: right;
+  vertical-align:top;
 }
 
-
+/* #picOfAllie {
+  float: right;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
 
 #mary {
-
+  float: left;
+  display: block;
+  align-items: center;
+  justify-content: center;
 }
+
+/* #picOfMary {
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
 
 #daniel {
- 
+  float: right;
+  display: block;
+  align-items: center;
+  justify-content: center;
 }
+
+/* #picOfDaniel {
+  float: right;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
 
 #jordan {
-
+  float: left;
+  display: block;
+  align-items: center;
+  justify-content: center;
 }
+
+/* #picOfJirdan {
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
 
 #teresa {
-
+  float: right;
+  display: block;
+  align-items: center;
+  justify-content: center;
 }
+
+/* #picOfTeresa {
+  float: right;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
