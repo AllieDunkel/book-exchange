@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
     <meta charset="UTF-8" />
     <title>Second Chance Books</title>
     <link rel="stylesheet" href="css/reset.css" />
@@ -11,47 +11,51 @@
     <script src ="js/browse.js"></script>
     <script src = "js/share-book.js"></script>
    
-  </head>
-  <body>
-    <header>
-        <h1>Second Chance Books</h1>
-       <img src="img/logo.png" alt="site logo" />
-       <a href = "checkout.html"><img src = "img/bookshelf-icon.jpg" alt="bookshelf icon"></a>
-       <img src="img/book-icon.png" alt="book icon" id="tokenCount"/>
-       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="browse-library.html">Browse Library</a></li>
-        <li><a href="share-book.html">Share a Book</a></li>
-        <li><a href="about-us.html">About</a></li>
-   
-       </ul> 
-     </header>
-    <main>
-      <p> Add a book down below and receive a token. You can then exchange a token for a book in checkout</p>
-      <img src ="img/book-icon.png" alt=" book token"/> <!--enlarged book token image tha will be to the left of icon-->
-      <fieldset>
-        <legend>Add a Book</legend>
-        <label for = "booktitle"> Title</label> <br>
+</head>
 
-        <input type = "text" id="booktitle" placeholder="booktitle" required ><br>
-
-        <label for = "author"> Author</label> <br>
-
-        <input type = "text" id="author" placeholder = "name" required><br>
-        
-        <button type="button" onclick="handleSubmit()"> Submit </button>
-      
-        </fieldset>
-        </main>    
-
-<footer>
-  &copy; Copyright
-  <p>Phone Number: 319-945-1628</p>
-  <p>Email: secondchance@books.com</p>
-  <p> Address: 124 Book Rd Cedar Rapids, IA, 52402 </p>
+<body>
+  <header>
+    <h1>Second Chance Books</h1>
+    <img src="img/logo.png" id="siteLogo" alt="site logo" />
+    <a href = "checkout.html"><img src = "img/bookshelf-icon.jpg" alt="bookshelf icon"></a>
+    <img src="img/book-icon.png" id="book-icon" alt="book icon" />
+    <span id="logInArea"><a href="sign-in.html" id="sign-in"> Sign in </a></span>
     <ul>
-    <li><a href="index.html#volunteer">Volunteer</a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="browse-library.html">Browse Library</a></li>
+      <li><a href="share-book.html">Share a Book</a></li>
+      <li><a href="about-us.html">About</a></li>
     </ul>
- </footer>
+  </header>
+  <main>
+    <p> Add a book down below and receive a token. You can then exchange a token for a book in checkout</p>
+    <img src="img/book-icon.png" alt=" book token" />
+    <!--enlarged book token image tha will be to the left of icon-->
+    <fieldset>
+      <legend>Add a Book</legend>
+      <label for = "booktitle"> Title</label> <br>
+
+      <input type = "text" id="booktitle" placeholder="booktitle" required ><br>
+
+      <label for = "author"> Author</label> <br>
+
+      <input type = "text" id="author" placeholder = "name" required><br>
+
+      <button type="button" onclick="handleSubmit()"> Submit </button>
+    
+      </fieldset>
+
+  </main>
+
+  <footer>
+    &copy; Copyright
+    <p>Phone Number: 319-945-1628</p>
+    <p>Email: secondchance@books.com</p>
+    <p> Address: 124 Book Rd Cedar Rapids, IA, 52402 </p>
+    <ul>
+      <li><a href="index.html#volunteer">Volunteer</a></li>
+    </ul>
+  </footer>
 </body>
+
 </html>
