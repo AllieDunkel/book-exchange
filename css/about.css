@@ -1,75 +1,56 @@
 h2 {
   text-align: center;
+  padding: 30px;
 }
 
-#allie {
-  
-  display: block;
-  align-items: center;
-  justify-content: center;
-  display:inline-block;float: right;
-  vertical-align:top;
+section{
+  border: 5px solid #550c18;
+  margin: 30px;
+  border-radius: 10px;
 }
 
-/* #picOfAllie {
-  float: right;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
 
-#mary {
+#picOfAllie {
   float: left;
-  display: block;
-  align-items: center;
-  justify-content: center;
+  margin: 15px;
+  vertical-align: middle;
+  width: 200px;
+  border-radius: 8px;
+
 }
 
-/* #picOfMary {
+
+#picOfMary {
   float: left;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
+  margin: 15px;
+  vertical-align: middle;
+  width: 200px;
+  border-radius: 8px;
+} 
 
-#daniel {
-  float: right;
-  display: block;
-  align-items: center;
-  justify-content: center;
-}
 
-/* #picOfDaniel {
-  float: right;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
-
-#jordan {
+#picOfDaniel {
   float: left;
-  display: block;
-  align-items: center;
-  justify-content: center;
+  margin: 15px;
+  vertical-align: middle;
+  width: 200px;
+  border-radius: 8px;
 }
 
-/* #picOfJirdan {
+
+#picOfJirdan {
   float: left;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
+  margin: 15px;
+  vertical-align: middle;
+  width: 200px;
+  border-radius: 8px;
+}  
 
-#teresa {
-  float: right;
-  display: block;
-  align-items: center;
-  justify-content: center;
+
+#picOfTeresa {
+  float: left;
+  margin: 15px;
+  vertical-align: middle;
+  width: 200px;
+  border-radius: 8px;
 }
-
-/* #picOfTeresa {
-  float: right;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
