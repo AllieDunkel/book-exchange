@@ -50,5 +50,15 @@ function handleSubmit(){
   let titleValue = document.getElementById('booktitle').value;
   let authorValue = document.getElementById('author').value;
   addBooksStorage(new Book(titleValue,authorValue));
+  
 }
 
+// adding tokens to user
+
+function addUserTokens(){
+  let tokens = userDataObject.currentUser.tokens;
+  console.log ('addUserTokens',tokens);
+  tokens++;
+  localStorage.setItem(userDataObject.currentUser.tokens,JSON.stringify());
+  handleSubmit();
+}
