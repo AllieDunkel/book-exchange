@@ -49,6 +49,16 @@ function getBooksStorage(){
 function handleSubmit(){
   let titleValue = document.getElementById('booktitle').value;
   let authorValue = document.getElementById('author').value;
-  addBooksStorage(new Book(titleValue,authorValue));
+  addBooksStorage(new Book(titleValue,authorValue)); 
+  userDataObject.allUsers[userDataObject.currentUser.index] = userDataObject.currentUser;
+  localStorage.setItem(userKey, JSON.stringify(userDataObject)); 
 }
 
+// adding tokens to user
+
+function addUserTokens(){
+userDataObject.currentUser.tokens++;
+ console.log ('addUserTokens',tokens);
+  handleSubmit();
+
+}
