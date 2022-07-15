@@ -1,0 +1,56 @@
+h2 {
+  text-align: center;
+  padding: 30px;
+}
+
+section{
+  border: 5px solid #550c18;
+  margin: 30px;
+  border-radius: 10px;
+}
+
+
+#picOfAllie {
+  float: left;
+  margin: 15px;
+  vertical-align: middle;
+  width: 200px;
+  border-radius: 8px;
+
+}
+
+
+#picOfMary {
+  float: left;
+  margin: 15px;
+  vertical-align: middle;
+  width: 200px;
+  border-radius: 8px;
+} 
+
+
+#picOfDaniel {
+  float: left;
+  margin: 15px;
+  vertical-align: middle;
+  width: 200px;
+  border-radius: 8px;
+}
+
+
+#picOfJirdan {
+  float: left;
+  margin: 15px;
+  vertical-align: middle;
+  width: 200px;
+  border-radius: 8px;
+}  
+
+
+#picOfTeresa {
+  float: left;
+  margin: 15px;
+  vertical-align: middle;
+  width: 200px;
+  border-radius: 8px;
+}
