@@ -1,29 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<head>
+  <meta charset="UTF-8" />
+  <title>Second Chance Books</title>
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/user.js"></script>
+</head>
 
-  <head>
-    <meta charset="UTF-8" />
-    <title>Second Chance Books</title>
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <script src="js/user.js"></script>
-    <script src="js/sign-in.js"></script>
-  </head>
-  <body>
-    <header>
-      <h1>Second Chance Books</h1>
-       <img src="img/" alt="site logo" />
-       <a href = "checkout.html"><img src = "img/bookshelf-icon.jpg" alt="bookshelf icon"></a>
-       <img src="img/book-icon.png" alt="book icon" />
-       <a href="sign-in.html" >Sign In </a>
-       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="browse-library.html">Browse Library</a></li>
-        <li><a href="share-book.html">Share a Book</a></li>
-        <li><a href="about-us.html">About</a></li>
-       </ul>
-    </header>
+<body onload="checkLoggedIn()">
+  <header>
+    <h1>Second Chance Books</h1>
+    <img id="site logo" src="img/logo.png" alt="site logo" />
+    <a href = "checkout.html"><img id="bookshelf" src = "img/bookshelf-icon.jpg" alt="bookshelf icon"></a>
+    <img id="book-icon" src="img/book-icon.png" alt="book icon" />
+    <span id="logInArea"><a href="sign-in.html"> Sign in </a></span>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="browse-library.html">Browse Library</a></li>
+      <li><a href="share-book.html">Share a Book</a></li>
+      <li><a href="about-us.html">About</a></li>
+    </ul>
+  </header>
     <main>
     <div>
       <label for="name"><b>Name</b></label>
@@ -37,14 +36,17 @@
     <span id="greeting"></span>
   </main>
   <footer>
-    &copy; Copyright
-    <p>Phone Number: 319-945-1628</p>
-    <p>Email: secondchance@books.com</p>
-    <p> Address: 124 Book Rd Cedar Rapids, IA, 52402 </p>
+    <ul>
+      <li>&copy; 2022 Second Chance Books</li>
+    </ul>
+    <ul>
+      <li>Phone Number: 319-945-1628</li>
+      <li>Email: secondchance@books.com</li>
+      <li>Address: 124 Book Rd Cedar Rapids, IA, 52402</li>
+    </ul>
     <ul>
       <li><a href="index.html#volunteer">Volunteer</a></li>
     </ul>
   </footer>
 </body>
-
 </html>
