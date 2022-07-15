@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+  }
+
+  #token {
+
+  width: 360px;
+  height: 300px;
+  margin: auto;
+  float: left;  
+  padding-left: 6px;
+  
+  }
+
+  fieldset{
+    align:right;
+    padding-left:60px;
+    font-size: large;
+    border: solid #443730 5px;
+    
+  }
+  fieldset input[type="text"]{
+    width:300px;
+    margin: 0.5rem;
+
+  }
+ 
