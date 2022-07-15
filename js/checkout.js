@@ -58,13 +58,14 @@ function reserveBooks (){
     handleReserveButton();
   }
 }
-reserveBooks();
+
 /**
  * once the user clicks on the button the response will pop up underneath in a span
  */
 
 function handleReserveButton(){
   let endGreeting = document.getElementById("endGreeting");
-  endGreeting.textContent = "Thank you for your order, you will receive an email in 2-3 business days explaining when and where you can pick up your order.";
+  endGreeting.innerHTML = "Thank you for your order, you will receive an email in 2-3 business days explaining when and where you can pick up your order.";
 }	
+
 
