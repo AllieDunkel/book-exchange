@@ -84,16 +84,15 @@ function renderLibrary(set){
       let author = document.createElement('p');
       author.innerText = element.author;
       innerDiv.appendChild(author);
-
+      let ul = document.createElement('ul');
       if(element.attributes.length > 0){
-        let ul = document.createElement('ul');
         element.attributes.forEach(attribute => {
           let li = document.createElement('li');
           li.innerText = attribute;
           ul.appendChild(li);
         });
-        innerDiv.appendChild(ul);
       }
+      innerDiv.appendChild(ul);
       let button = document.createElement('button');
       button.innerText = 'Add to Shelf';
       button.addEventListener('click', addToShelf);

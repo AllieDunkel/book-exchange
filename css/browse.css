@@ -1,0 +1,35 @@
+#searchBarSection {
+  text-align: center;
+}
+#searchBarSection input, #searchBarSection button {
+  height: 2.5rem;
+  font-size: 1.4rem;
+  border: .2rem solid #443730;
+  border-radius: 10px;
+}
+#searchBarSection input {
+  width: 30rem;
+}
+#libraryCards {
+  display: grid;
+  grid-template: auto/repeat(3, 1fr);
+
+}
+.card {
+  margin: 1rem;
+  border: .5rem double #550c18;
+  display: grid;
+  grid-template: 1fr auto auto 3.5rem/ 1fr;
+  text-align: center;
+  min-height: 25rem;
+}
+
+.card h3 {
+  justify-self: start;
+}
+
+.card button {
+  margin: 1rem;
+  border: .2rem solid #443730;
+  border-radius: 7px;
+}
