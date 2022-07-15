@@ -7,27 +7,25 @@
  * get the current user from local storage, get there list of books, display them as a list on the page 
  */
 
-//global variable
-
- userDataObject;
-
-function initilizeCheckout(){ 
-  userDataObject.currentUser.bookshelf;
+function initilizeCheckout(){
+  if (userDataObject.currentUser === null) {
+    window.location = 'sign-in.html';
+  }
   let bookshelf=  userDataObject.currentUser.bookshelf;
   let bookList= document.getElementById("listOfBooks");
-for (let i = 0; i < bookshelf.length; i++) {
-  const element = bookshelf[i];
-  let item=document.createElement("li");
-    // let text= `${element.title} ${element.author}`;
-    // item.innerHTML= text;
-  let checkbox=document.createElement("input");
-  checkbox.setAttribute("type", "checkbox");
-  checkbox.setAttribute("id", element.title);
-  item.appendChild(checkbox);
-  let label=document.createElement("label");
-  label.setAttribute("for", element.title);
-  label.textContent=`${element.title} - ${element.author}`;
-  item.appendChild(label);
+  for (let i = 0; i < bookshelf.length; i++) {
+    const element = bookshelf[i];
+    let item=document.createElement("li");
+      // let text= `${element.title} ${element.author}`;
+      // item.innerHTML= text;
+    let checkbox=document.createElement("input");
+    checkbox.setAttribute("type", "checkbox");
+    checkbox.setAttribute("id", element.title);
+    item.appendChild(checkbox);
+    let label=document.createElement("label");
+    label.setAttribute("for", element.title);
+    label.textContent=`${element.title} - ${element.author}`;
+    item.appendChild(label);
 
 
     bookList.appendChild(item); 
