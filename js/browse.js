@@ -105,7 +105,9 @@ function renderLibrary(set){
 
 function addToShelf(event){
     let text = event.path[1].childNodes[0].innerText;
-    
+    if (currentUser === null) {
+      window.location = 'sign-in.html';
+    }
     for (let i = 0; i < library.length; i++) {
         const element = library[i];
         if(element.title === text){
