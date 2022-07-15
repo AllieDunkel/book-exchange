@@ -4,7 +4,7 @@
 
 body {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  background-color: #E9DCC9;
+  background-color: #e9ded0;
   color: rgba(144, 111, 83, 0.515);
 }
 
@@ -15,8 +15,8 @@ header {
   width: auto;
   /* height: auto; */
   padding: 10px;
-  border: solid 10px rgba(86, 77, 70, 0.708);
-  background-color: rgba(178, 138, 103, 0.515);
+  border: solid 10px #443730;
+  background-color: #550c18;
   /*width: calc(50% - 80px);*/
   animation-name: header-border;
   animation-duration: 8s;
@@ -35,8 +35,11 @@ header {
     border-color: rgba(63, 31, 13, 0.742);
   }
 
-  100% {
+  75% {
     border-color: darkgreen;
+  }
+  100% {
+    border-color: #443730;
   }
 }
 
@@ -44,7 +47,7 @@ h1 {
   line-height: .8;
   margin: auto 0;
   text-align: left;
-  color: rgb(34, 13, 5);
+  color: #e9ded0;
   font-size: 35px;
   font-size: 4rem;
   grid-row-start: 1;
@@ -97,6 +100,10 @@ h1 {
   grid-column-start: 8;
 }
 
+a {
+  color: #e9ded0;
+}
+
 header ul {
   grid-row-start: 3;
   grid-column-start: 1;
@@ -113,7 +120,8 @@ header li {
 main {
   max-width: 960px;
   margin: auto;
-  background-color: hotpink;
+  background-color: #e9ded0;
+  color:#443730
 }
 
 h2 {
@@ -141,8 +149,8 @@ p {
   display: block;
   width: 20rem;
   height: 10rem;
-  background-color: yellow;
-  border: 5px solid purple;
+  background-color: #550c18;
+  border: 5px solid #443730;
   border-radius: 20px;
   font-size: 2rem;
   text-align: center;
@@ -172,12 +180,11 @@ td {
 }
 
 footer {
-  max-width: 960px;
-  margin: auto;
+  padding: 1rem 15rem;
   display: flex;
   justify-content: space-around;
   line-height: 1.5rem;
   font-size: 1.2rem;
-  padding: 1rem;
-  background-color: lime;
+  background-color: #550c18;
+  color: #e9ded0;
 }
