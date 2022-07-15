@@ -9,6 +9,7 @@ function handleButton() {
   let nameValue = document.getElementById("name").value;
   let emailValue = document.getElementById("email").value;
   logIn(nameValue,emailValue);
+  checkLoggedIn();
   let greeting = document.getElementById("greeting");
   greeting.textContent = `Welcome ${nameValue}`;
 }
