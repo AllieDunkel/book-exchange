@@ -45,7 +45,7 @@ bookList.appendChild(item);
 function reserveBooks (){
   // shows the current tokens that the user has
   let currentUserTokens = userDataObject.currentUser.tokens;
-  console.log(userDataObject.currentUser.tokens);
+  console.log(userDataObject.currentUser.tokensgit);
   // shows the total books they have in/on the shelf
   let currentBooksInShelf= userDataObject.currentUser.bookshelf.length;
   // check to see if the user has enough tokens
